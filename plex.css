@@ -1,0 +1,23 @@
+.header {
+    width: 101.4%;
+    height: 64px;
+    background-color: black;
+    margin-left: -10px;
+    margin-top: -8px;
+}
+.logo {
+    width: 80px;
+    height: 38px;
+    margin-top: 14px;
+    margin-left: 35px;
+    padding-bottom: 10px;
+    padding-right: 24px;
+}
+#button {
+    background-color: rgb(1, 0, 0);
+    width: 120px;
+    height: 60px;
+    border-color: blue;
+    border-radius: 30px;
+    margin-left: 90px;
+}
