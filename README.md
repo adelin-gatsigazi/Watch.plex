@@ -1,2 +1,1 @@
-# watch.plex
-web watch.tv
+watch.plex
