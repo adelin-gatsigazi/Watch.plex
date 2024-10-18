@@ -1,4 +1,6 @@
 .header {
+    position: sticky;
+    display: flex;
     width: 101.4%;
     height: 64px;
     background-color: black;
@@ -13,11 +15,123 @@
     padding-bottom: 10px;
     padding-right: 24px;
 }
+#search-bar {
+    position: relative;
+    top: 20px;
+    width: 230px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(69, 66, 66);
+    border: none;
+}
+.search-icon{
+    position: relative;
+    left: -43px;
+    top: 22px;
+    height: 30px;
+    cursor: col-resize;
+}
 #button {
-    background-color: rgb(1, 0, 0);
-    width: 120px;
-    height: 60px;
-    border-color: blue;
-    border-radius: 30px;
-    margin-left: 90px;
+    width: 130px;
+    height: 45px;
+    margin-top: 12px;
+    margin-left: -18px;
+    background-color: rgb(7, 7, 7);
+    border: 2px solid gray;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.home-icon {
+    width: 30px;
+    height: 20px;
+    margin-left: -80px;
+    padding-top: 8px;
+    padding-left: 8px;
+}
+.home {
+    font-family: "Open Sans", sans-serif;
+    position: relative;
+    bottom: 38px;
+    text-align: center;
+    color: rgb(188, 184, 184);
+    margin-left: 30px; 
+}
+.tv-logo {
+    width: 35px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.live-tv {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    color: rgb(188, 184, 184);
+    margin-top: 29px;
+    margin-left: 10px;
+}
+.tv-play {
+    width: 35px;
+    height: 30px;
+    margin-top: 22px;
+    margin-left: 40px;
+}
+.demand {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    color: rgb(188, 184, 184);
+    margin-top: 29px;
+    margin-left: 10px;
+}
+.compass {
+    width: 30px;
+    height: 35px;
+    margin-top: 18px;
+    margin-left: 40px;
+}
+.discover {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    color: rgb(188, 184, 184);
+    margin-top: 29px;
+    margin-left: 10px;
+}
+.sign-icon {
+    width: 26px;
+    height: 25px;
+    margin-top: 23px;
+    margin-left: 140px;
+}
+.sign-in {
+    font-family: "Open Sans", sans-serif;
+    position: relative;
+    left: 30px;
+    font-size: 15px;
+    color: rgb(250, 247, 247);
+    margin-top: 25px;
+    margin-left: 2px;
+}
+.sign-border {
+    width: 80px;
+    height: 40px;
+    margin-top: 13px;
+    margin-left: -34px;
+    background-color: rgb(45, 43, 43);
+    border-radius: 25px;
+    cursor: context-menu;
+}
+#video {
+    margin-left: 195px;
+}
+.main-video {
+    position: relative;
+    
+}
+.div-video {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.first-page {
+    position: absolute;
+    z-index: 5;
 }
