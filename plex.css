@@ -1,5 +1,5 @@
 .header {
-    position: sticky;
+    position: fixed;
     display: flex;
     width: 101.4%;
     height: 64px;
@@ -121,17 +121,4 @@
 }
 #video {
     margin-left: 195px;
-}
-.main-video {
-    position: relative;
-    
-}
-.div-video {
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-.first-page {
-    position: absolute;
-    z-index: 5;
 }
