@@ -1,5 +1,5 @@
 .header {
-    position: fixed;
+    position: relative;
     display: flex;
     width: 101.4%;
     height: 64px;
@@ -121,4 +121,24 @@
 }
 #video {
     margin-left: 195px;
+}
+#video-style {
+    position: absolute; 
+    right: 0; 
+    bottom: 0;
+    width: auto; 
+    height: auto; 
+    z-index: -300;
+    overflow: hidden;
+    mask-size: 100%; 
+}
+
+.first-page {
+    position: relative;
+    top: -23px;
+    height: 570px;
+    right: 8px;
+    background-image: linear-gradient(to left, rgba(6, 6, 6, 0), rgb(1, 1, 1));
+    
+    
 }
