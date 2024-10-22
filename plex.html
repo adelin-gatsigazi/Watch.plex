@@ -27,12 +27,18 @@
     </header>
     <div class="main-video">
         <div>
-            <video id="video-style" muted autoplay loop id="video" width="900" src="images/plex2.mp4"></video>
+            <video id="video-style" muted autoplay loop width="900" src="images/plex2.mp4"></video>
         </div>
+        <svg id="background">
+            <rect/>
+        </svg>
+        <div id="linear-gradient"></div>
         <div class="first-page">
-            <h1>Go ahead, stream free</h1>
-            <p>With Plex you can watch over 20,000 free movies and<br> shows, plus Live TV on almost any device. What are</br> you waiting for?</p>
-            <button>Sign Up</button>
+            <h1 id="stream-free">Go ahead, stream free</h1>
+            <p id="first-paragraph">With Plex you can watch over 20,000 free movies and<br> shows, plus Live TV on almost any device. What are</br> you waiting for?</p>
+            <button class="sign-up">
+                <p id="sign-size">Sign Up</p>
+            </button>
         </div>
     </div>
 </body>
